@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quienes somos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./index.css" />
+    <script type="module" src="../../components/header/index.ts"></script>
+    <script type="module" src="../../components/menu/index.ts"></script>
+    <script type="module" src="../../components/footer/index.ts"></script>
+
+    <script type="module" src="../../index.ts"></script>
+  </head>
+  <body>
+    <header-custom></header-custom>
+    <div class="bodyc">
+      <section class="somos">
+        <div class="bienvenida__display">
+          <menu-custom class="contenedor__menu"></menu-custom>
+          <div class="contenedor__contenido">
+            <div class="contenedor__contenido-ubi">
+              <div>
+                <a class="link__text" href="../../index.html">inicio </a>
+              </div>
+              <div>
+                <p style="margin: 0">&nbsp > quienes somos</p>
+              </div>
+            </div>
+            <h1 class="info__title">Sobre...</h1>
+            <div class="contenedor__info">
+              <div class="caja-izq">
+                <p class="info__text">texto</p>
+                <br />
+                <p class="info__text">texto</p>
+                <br />
+                <p class="info__text">texto</p>
+              </div>
+              <div class="caja-der">
+                <img
+                  class="info-img"
+                  src="../../assets/info-portada-2.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="btn-wsp">
+        <a
+          href="https://api.whatsapp.com/send?phone=5491163515660"
+          target="_blank"
+        >
+          <img class="img_whats" src="../../assets/Whatsapp-3.png" />
+        </a>
+      </div>
+    </div>
+    <footer-custom></footer-custom>
+  </body>
+</html>
