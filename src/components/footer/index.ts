@@ -6,7 +6,7 @@ export class Footer extends HTMLElement {
     render() {
         const div = document.createElement("div")
         const style = document.createElement("style")
-        const logoFooter = require("../../assets/logo-muestra.jpg")
+        const logoFooter = require("../../assets/logo-jc.jpeg")
         const instagramIco = require("../../assets/instagram.png")
         const facebookIco = require("../../assets/facebook.png")
         style.textContent = `
@@ -14,7 +14,7 @@ export class Footer extends HTMLElement {
             display:flex;
             height:200px;
             position: relative;
-            background: #2fa534;
+            background: #ba3c3c;
             top: 80px;
           
           
@@ -46,7 +46,7 @@ export class Footer extends HTMLElement {
             }
         }
         .logo-footer{
-            width:200px
+            width:130px
         }
         .contenedor__footer-redes{
 
@@ -62,7 +62,7 @@ export class Footer extends HTMLElement {
             display: contents;
         }
         .icono-footer{
-            filter: invert(51%) sepia(7%) saturate(4761%) hue-rotate(73deg) brightness(99%) contrast(91%);
+            filter: invert(41%) sepia(12%) saturate(5925%) hue-rotate(328deg) brightness(76%) contrast(87%);
             width:27px;
             height:27px;
           

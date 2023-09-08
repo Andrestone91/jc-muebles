@@ -23,7 +23,7 @@ body {
 .contenedor__menu {
   display: none;
   min-width: 250px;
-  padding: 40px 0 0 0;
+  padding: 85px 0 0;
 }
 @media (min-width: 768px) {
   .contenedor__menu {
@@ -50,7 +50,7 @@ body {
 }
 .link__text {
   text-decoration: none;
-  color: #087c15;
+  color: rgb(232, 125, 125);
 }
 .contenedor__contenido-ubi {
   display: flex;

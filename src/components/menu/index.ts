@@ -31,7 +31,7 @@ export class Menu extends HTMLElement {
           }
           .link:hover{
             text-shadow: 0px 1px 1px black;
-            color: rgb(58, 220, 206);
+            color: rgb(232, 125, 125);
             transition-duration: 0.15s;
             border-bottom:solid 1px;
           }
@@ -92,7 +92,7 @@ export class Menu extends HTMLElement {
           }
           .li-text:hover {
             text-shadow: 0px 1px 1px black;
-            color: rgb(58, 220, 206);
+            color: rgb(232, 125, 125);
             transition-duration: 0.15s;
           }
         `

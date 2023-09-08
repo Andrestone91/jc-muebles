@@ -11,7 +11,7 @@ export class Header extends HTMLElement {
         const cruzImg = require("../../assets/cruz.svg")
         style.textContent = `
         .contenedor {
-            background: #2fa534;
+            background: #ba3c3c;
              height: 80px; 
             display: flex;
             justify-content: space-between;

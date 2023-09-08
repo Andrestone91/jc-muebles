@@ -23,7 +23,7 @@ body {
 .contenedor__menu {
   display: none;
   min-width: 250px;
-  padding: 40px 0 0 0;
+  padding: 85px 0 0;
 }
 @media (min-width: 768px) {
   .contenedor__menu {
@@ -47,7 +47,7 @@ body {
 }
 .link__text {
   text-decoration: none;
-  color: #087c15;
+  color: rgb(232, 125, 125);
 }
 .contenedor__contenido-ubi {
   display: flex;
@@ -90,8 +90,8 @@ body {
 .ico-contacto {
   width: 27px;
   height: 27px;
-  filter: invert(51%) sepia(7%) saturate(4761%) hue-rotate(73deg)
-    brightness(99%) contrast(59%);
+  filter: invert(41%) sepia(12%) saturate(5925%) hue-rotate(328deg)
+    brightness(76%) contrast(87%);
 }
 .text-contact p {
   margin: 0 0 10px 0;
@@ -109,7 +109,7 @@ body {
 }
 @media (min-width: 1000px) {
   .ul-map {
-    border-right: solid 1px #2fa534;
+    border-right: solid 1px #ba3c3c;
     padding: 0 50px 0 0;
   }
 }
