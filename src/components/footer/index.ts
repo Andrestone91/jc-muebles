@@ -46,8 +46,14 @@ export class Footer extends HTMLElement {
             }
         }
         .logo-footer{
-            width:130px
+            width:65px
         }
+        @media (min-width:768px){
+            .logo-footer{
+                width:130px
+            }
+        }
+
         .contenedor__footer-redes{
 
         }
@@ -80,12 +86,12 @@ export class Footer extends HTMLElement {
           <div class="contenedor__footer-redes">
               <ul style="padding:0;">
                  <div class="caja-redes">
-                 <a class="link-redes"href="" target="_blank">  <img class="icono-footer"src=${instagramIco}><p class="text-redes">Instagram</p></a>
+                 <a class="link-redes"href="https://www.instagram.com/carojose928/" target="_blank">  <img class="icono-footer"src=${instagramIco}><p class="text-redes">Instagram</p></a>
                   </div>
               </ul>
               <ul style="padding:0;">
                  <div class="caja-redes">
-                 <a class="link-redes"href="" target="_blank">  <img class="icono-footer"src=${facebookIco}><p class="text-redes">Facebook</p></a>
+                 <a class="link-redes"href="https://www.facebook.com/profile.php?id=100071542146380" target="_blank">  <img class="icono-footer"src=${facebookIco}><p class="text-redes">Facebook</p></a>
                   </div>
               </ul>
              

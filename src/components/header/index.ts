@@ -43,16 +43,17 @@ export class Header extends HTMLElement {
             bottom: 6px;
             z-index: 01;
             position: relative;
-            width:200px;
+            width:76px;
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0px 0px 20px black;
             left: 6px;
-            top: 25px;
+            top: -8px;
         }
         @media (min-width:768px){
             .contenedor__logo{
                 width:130px;
+                top: 25px;
             }
         }
      
@@ -118,7 +119,7 @@ export class Header extends HTMLElement {
             background: #fff;
         }
         .link__menu{
-            color: #79df94;
+            color: #e87d7d;
              cursor: pointer;
              text-shadow: 1px 1px #000;
              font-family: Big Shoulders Display, sans-serif;
@@ -159,8 +160,7 @@ export class Header extends HTMLElement {
             position: absolute;
             right: 30px;
             top: 25px;
-           
-            filter: invert(34%) sepia(19%) saturate(951%) hue-rotate(73deg) brightness(91%) contrast(92%);
+            filter: invert(5%) sepia(11%) saturate(915%) hue-rotate(56deg) brightness(38%) contrast(146%);
         }
         .menu-galeria-movil {
             display: none;
@@ -195,7 +195,7 @@ export class Header extends HTMLElement {
         }
         .text-link-movil{
             text-decoration: underline;
-            color: #79df94;
+            color: #e87d7d;
             font-family: "Big Shoulders Display";
             font-size: 25px;;
             text-align: center;
