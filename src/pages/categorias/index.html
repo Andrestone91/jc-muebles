@@ -4,18 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JC Muebles - Quienes somos</title>
+    <title>JC Muebles - Categorias</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap"
       rel="stylesheet"
     />
 
     <link rel="stylesheet" href="./index.css" />
     <script type="module" src="../../components/header/index.ts"></script>
     <script type="module" src="../../components/menu/index.ts"></script>
+    <script type="module" src="../../components/product/index.ts"></script>
     <script type="module" src="../../components/footer/index.ts"></script>
 
     <script type="module" src="../../index.ts"></script>
@@ -23,7 +22,7 @@
   <body>
     <header-custom></header-custom>
     <div class="bodyc">
-      <section class="somos">
+      <section class="contacto">
         <div class="bienvenida__display">
           <menu-custom class="contenedor__menu"></menu-custom>
           <div class="contenedor__contenido">
@@ -32,27 +31,13 @@
                 <a class="link__text" href="../../index.html">inicio </a>
               </div>
               <div>
-                <p style="margin: 0">&nbsp > quienes somos</p>
+                <p style="margin: 0">&nbsp > contacto</p>
               </div>
             </div>
-            <h1 class="info__title">Sobre JC Muebles</h1>
-            <div class="contenedor__info">
-              <div class="caja-izq">
-                <p class="info__text">
-                  Empresa en crecimiento buscando la excelencia y el
-                  crecimiento.
-                </p>
-                <br />
-                <p class="info__text">
-                  contamos con una amplia categoría en productos
-                </p>
-                <br />
-                <p class="info__text"></p>
-              </div>
-              <div class="caja-der">
-                <img class="info-img" src="../../assets/sobre-1.jpg" alt="" />
-              </div>
-            </div>
+            <h1 class="info__title">Categorias</h1>
+            <product-custom
+              test="http://localhost:1234/index.html"
+            ></product-custom>
           </div>
         </div>
       </section>
