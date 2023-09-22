@@ -165,3 +165,12 @@ body {
 .btn-wsp:hover {
   background: #20ba5a;
 }
+
+.container_items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+}
+.product-custom-item {
+  justify-self: center;
+}
