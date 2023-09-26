@@ -4,43 +4,51 @@ export class Item extends HTMLElement {
   }
   render() {
     const link = this.getAttribute("link")
-    console.log(link);
+    const src = this.getAttribute("src")
 
     const a = document.createElement("a")
     const style = document.createElement("style")
     style.textContent = `
         .contenedor_product {
           border: solid 0.5px lightgray;
-          height: 250px;
-          width: 200px;
+          height: 350px;
+          width: 250px;
           display: flex;
           flex-direction: column;
           text-decoration: none;
           color:black;
+          box-shadow: 0 2px 4px #0000001a;
         }
         .item-image {
           width: 100%;
           object-fit: cover;
-          height: 70%;
+          height: 60%;
+          box-shadow: 0 2px 1px #0000001a;
         }
         .contenedor_product_description{
-          height:100%;
+          height:40%;
           width:100%;
+          text-align: center;
+          font-family: Roboto, sans-serif;
         }
         `
+
     this.appendChild(style)
     a.innerHTML = `
-      <img class="item-image"src="https://v5.airtableusercontent.com/v1/21/21/1695355200000/8ojLVyRWUokXnfyMmLcUmg/NwFjA8Z9H2hDPzF6dH8qwtcvaRwnLkfQnvu67IKWrhuRPwKp-vRi_7kc_bmY_DSBy6OFpspSRjOuu8UhfA66FQ/BoaHl6dGUyOMwfS-C2S-kIx7XSK_zyeeelqPgsUZgPo" alt="">
-      <div class="contenedor_product_description"> asdasd
+      <img class="item-image" src="${src}" alt="">
+      <div class="contenedor_product_description"> 
+        <h4>Nombre del producto</h4>
+        <h3>$1</h3>
       </div>
      `
+
     a.classList.add("contenedor_product")
+
     const path = link ? link : "http://localhost:1234";
 
     a.setAttribute("href", path)
 
     this.appendChild(a)
-
   }
 }
 customElements.define("product-custom", Item)
