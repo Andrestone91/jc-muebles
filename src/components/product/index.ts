@@ -28,7 +28,8 @@ export class Item extends HTMLElement {
         .contenedor_product_description{
           height:40%;
           width:100%;
-          text-align: center;
+          text-align: left;
+          padding:10px;
           font-family: Roboto, sans-serif;
         }
         `
