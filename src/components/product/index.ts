@@ -5,6 +5,8 @@ export class Item extends HTMLElement {
   render() {
     const link = this.getAttribute("link")
     const src = this.getAttribute("src")
+    const price = this.getAttribute("price")
+    const title = this.getAttribute("title")
 
     const a = document.createElement("a")
     const style = document.createElement("style")
@@ -38,8 +40,8 @@ export class Item extends HTMLElement {
     a.innerHTML = `
       <img class="item-image" src="${src}" alt="">
       <div class="contenedor_product_description"> 
-        <h4>Nombre del producto</h4>
-        <h3>$1</h3>
+        <h4>${title}</h4>
+        <h3>$ ${price}</h3>
       </div>
      `
 
