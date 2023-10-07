@@ -7,6 +7,7 @@ export class Item extends HTMLElement {
     const src = this.getAttribute("src")
     const price = this.getAttribute("price")
     const title = this.getAttribute("title")
+    console.log(link);
 
     const a = document.createElement("a")
     const style = document.createElement("style")

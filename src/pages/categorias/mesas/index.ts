@@ -15,7 +15,7 @@ async function getData() {
             art.innerHTML = `
             <div>
              ${data.results.map(data => `
-                <product-custom src= ${data.Fotos[0].url} price=${data.Precio} title="${data.Nombre}"></product-custom>`
+                <product-custom src= ${data.Fotos[0].url} price=${data.Precio} title="${data.Nombre}" link="/pages/item/index.html:${data.Link}"></product-custom>`
             )}
             </div>
             `
